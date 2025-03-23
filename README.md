@@ -13,11 +13,11 @@ To get started with the Trump AI Chatbot, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/trump-ai-chatbot.git
+    git clone https://github.com/yourusername/trump-ai.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd trump-ai-chatbot
+    cd trump-ai
     ```
 3. Install the dependencies:
     ```bash
