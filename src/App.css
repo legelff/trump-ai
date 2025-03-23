@@ -70,6 +70,7 @@ textarea {
     color: white;
     font-family: var(--font-family);
     font-size: 1rem;
+    scrollbar-width: none;
 }
 
 textarea:focus {
@@ -86,9 +87,15 @@ textarea:focus {
     background-color: white;
     border: 1px solid rgba(120, 120, 120, 0.5);
     width: 10%;
+    transition: 0.3s border ease-out, 0.3s background-color ease-out;
 }
 
 .submit:active {
+    border: 1px solid rgba(120, 120, 120, 1);
+}
+
+.submit:hover {
+    background-color: rgb(201, 201, 201);
     border: 1px solid rgba(120, 120, 120, 1);
 }
 

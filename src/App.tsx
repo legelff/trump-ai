@@ -26,7 +26,7 @@ function App() {
         </div>
 
         <div className='input-container'>
-          <textarea name="inputField" id="inputField"></textarea>
+          <textarea name="inputField" id="inputField" placeholder="I'm intelligent. Some people would say I'm very, very, very intelligent."></textarea>
           <button className='submit'>
             <i className='bx bx-up-arrow-alt'></i>
           </button>
