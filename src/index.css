@@ -6,7 +6,7 @@
 
 :root {
   --background-color: #000000;
-  --text-color: #C0C0C0;
+  --text-color: #ffffff;
   --font-family: Arial, sans-serif;
   --line-height: 1.6;
 }
@@ -30,17 +30,9 @@ body {
   padding: 1rem;
 }
 
-.container {
+#root {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.header {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 1rem;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
