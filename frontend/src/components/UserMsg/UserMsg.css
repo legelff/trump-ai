@@ -28,7 +28,10 @@
 }
 
 .user-txt-container {
-    margin-right: calc(32px + 1rem);
+    margin-right: calc(32px );
     margin-left: calc(32px + 1rem);
-    text-align: right;
+    text-align: left;
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+    padding: 10px;
 }

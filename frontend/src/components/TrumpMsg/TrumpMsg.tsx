@@ -1,6 +1,10 @@
 import './TrumpMsg.css'
 
-function TrumpMsg() {
+interface Props {
+  message: string | undefined;
+}
+
+const TrumpMsg: React.FC<Props> = ({message}) => {
     return (
         <div className='trump-item-container'>
               <div className='trump-pfp-name-container'>
@@ -12,7 +16,7 @@ function TrumpMsg() {
               </div>
 
               <div className='trump-txt-container'>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, maxime provident itaque voluptates dolorem omnis quas commodi unde quasi, ab sed, eius quisquam mollitia nobis. Consequuntur totam eum placeat ab.</p>
+                <p>{message}</p>
               </div>
         </div>
     )
