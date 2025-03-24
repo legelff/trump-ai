@@ -22,6 +22,10 @@ function App() {
             <TrumpMsg/>
 
             <UserMsg/>
+
+            <TrumpMsg/>
+
+            <UserMsg/>
           </div>
         </div>
 
