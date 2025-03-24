@@ -14,6 +14,7 @@ interface Message {
 
 function App() {
   const refVal = useRef<HTMLTextAreaElement>(null);
+  const txtRef = useRef<HTMLDivElement>(null);
   const [msgs, setMsgs] = useState<Message[]>([]);
 
   const handleClick = () => {
@@ -31,9 +32,11 @@ function App() {
     }
   };
 
-  // useEffect(() => {
-  //   console.log(msgs);
-  // }, [msgs]);
+  useEffect(() => {
+    if (txtRef.current) {
+      txtRef.current.scrollTop = txtRef.current.scrollHeight;
+    }
+  }, [msgs]);
 
   const client = axios.create({
     baseURL: "http://localhost:3000"
@@ -72,7 +75,7 @@ function App() {
             Trump AI
           </h1>
 
-          <div className='txt'>
+          <div className='txt' ref={txtRef}>
             {msgs.map((item, index) => {
               return (
                 <div key={index}>
