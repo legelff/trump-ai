@@ -1,5 +1,7 @@
 # Trump AI Chatbot
 
+**Development Phase**: Searching for API
+
 This project is a Trump AI Chatbot built with React. The chatbot simulates conversations in the style of current President Donald Trump, providing users with an engaging and entertaining experience.
 
 ## Features
