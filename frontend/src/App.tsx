@@ -50,15 +50,24 @@ function App() {
       const newUserMessage = { role: 'user', message: msg };
       setMsgs((prevMsgs) => [...prevMsgs, newUserMessage]);
 
-      // communicate with api
-      const response = await client.post('/chat', {
-        message: msg,
-      });
+      try {
+        // communicate with api
+        const response = await client.post('/chat', {
+          message: msg,
+        });
 
-      const newTrumpMessage = { role: 'assistant', message: response.data.response };
-      setMsgs((prevMsgs) => [...prevMsgs, newTrumpMessage]);
+        const newTrumpMessage = { role: 'assistant', message: response.data.response };
+        setMsgs((prevMsgs) => [...prevMsgs, newTrumpMessage]);
 
-      refVal.current.value = '';
+        refVal.current.value = '';
+      }
+      
+      catch (error) {
+        const newTrumpMessage = { role: 'assistant', message: "FOLKS, WE’VE GOT A BIG LEAGUE ERROR HERE. TOTAL DISASTER. IN SPRINGFIELD, THEY’RE EATING THE DOGS, THE CATS—THE PETS! WHY? BECAUSE THE SYSTEM IS BROKEN. A COMPLETE FAILURE. THE FAKE NEWS WILL BLAME ME, BUT LET’S BE HONEST—IT’S THE PREVIOUS ADMINISTRATION’S FAULT. WE’RE GOING TO FIX IT, MAKE IT STRONG, MAKE IT GREAT. BUT FOR NOW, TRY AGAIN. TRUST ME, WE’RE GOING TO WIN SO BIGLY!" };
+        setMsgs((prevMsgs) => [...prevMsgs, newTrumpMessage]);
+
+        refVal.current.value = '';
+      }
     }
   }
 
