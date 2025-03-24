@@ -2,6 +2,8 @@
 
 This project is a Trump AI Chatbot built with React as frontend and a separate backend in NodeJS (expressjs). The chatbot simulates conversations in the style of President Donald Trump, providing users with an engaging and entertaining experience.
 
+![Trump AI Chatbot Demo](demo.png)
+
 ### ⚠️ Important Note
 
 This chatbot is not real and is meant purely for entertainment purposes. It does not reflect actual statements or opinions of Donald Trump.
