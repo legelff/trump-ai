@@ -1,43 +1,71 @@
 # Trump AI Chatbot
 
-**Development Phase**: Searching for API
+This project is a Trump AI Chatbot built with React as frontend and a separate backend in NodeJS (expressjs). The chatbot simulates conversations in the style of President Donald Trump, providing users with an engaging and entertaining experience.
 
-This project is a Trump AI Chatbot built with React. The chatbot simulates conversations in the style of current President Donald Trump, providing users with an engaging and entertaining experience.
+### ⚠️ Important Note
+
+This chatbot is not real and is meant purely for entertainment purposes. It does not reflect actual statements or opinions of Donald Trump.
 
 ## Features
 
 - **Realistic Responses**: The chatbot generates responses that mimic the speech patterns and style of Donald Trump.
 - **Interactive UI**: Built with React, the user interface is responsive and interactive.
+- **Built-in Error Handling**: Ensures a smooth and stable chat experience even when issues arise.
+- **Great UI**: Designed to be visually appealing and user-friendly.
 
 ## Installation
 
 To get started with the Trump AI Chatbot, follow these steps:
 
-1. Clone the repository:
+### Clone the Repository:
+1. Clone the GitHub repository:
     ```bash
-    git clone https://github.com/yourusername/trump-ai.git
+    git clone https://github.com/legelff/trump-ai.git
     ```
 2. Navigate to the project directory:
     ```bash
     cd trump-ai
     ```
-3. Install the dependencies:
+
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+    ```bash
+    cd frontend
+    ```
+2. Install the dependencies:
     ```bash
     npm install
     ```
-4. Start the development server:
+3. Start the development server:
     ```bash
-    npm start
+    npm run dev
+    ```
+
+### Backend Setup
+
+1. Navigate to the backend directory:
+    ```bash
+    cd backend
+    ```
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the backend server:
+    ```bash
+    npm run dev
     ```
 
 ## Usage
 
-Once the development server is running, open your browser and navigate to `http://localhost:3000` to start interacting with the Trump AI Chatbot.
+Once both frontend and backend servers are running, open your browser and navigate to `http://localhost:5173/` to start interacting with the Trump AI Chatbot.
 
 ## Contact
 
-If you have any questions or suggestions or even have a chat, feel free to reach out:
+If you have any questions, suggestions, or just want to have a chat, feel free to reach out:
 
 - Email: business@l145.be
-- LinkedIn: https://www.linkedin.com/in/aryan-shah-l145
-- GitHub: legelff
+- LinkedIn: [Aryan Shah](https://www.linkedin.com/in/aryan-shah-l145)
+- GitHub: [legelff](https://github.com/legelff)
