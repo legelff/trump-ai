@@ -1,7 +1,7 @@
 # Trump AI Chatbot
 
 This project is a Trump AI Chatbot built with React as frontend and a separate backend in NodeJS (expressjs). The chatbot simulates conversations in the style of President Donald Trump, providing users with an engaging and entertaining experience.
-
+c
 ![Trump AI Chatbot Demo](demo.png)
 
 ### ⚠️ Important Note
@@ -29,6 +29,13 @@ To get started with the Trump AI Chatbot, follow these steps:
     cd trump-ai
     ```
 
+### Setup Environment Variables
+
+1. Create a `.env` file in the backend directory of the project.
+2. Add the following line to the `.env` file, replacing `YOUR_GROQ_API_KEY` with your actual API key from [console.groq.com](https://console.groq.com):
+    ```plaintext
+    GROQ_API_KEY=YOUR_GROQ_API_KEY
+    ```
 
 ### Frontend Setup
 
