@@ -39,7 +39,7 @@ function App() {
   }, [msgs]);
 
   const client = axios.create({
-    baseURL: "http://localhost:3000"
+    baseURL: "https://trump-ai-api.vercel.app"
   })
 
   const sendMessage = async () => {
