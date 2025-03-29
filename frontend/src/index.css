@@ -38,6 +38,7 @@ body {
 @media (max-width: 768px) {
   body {
     padding: 0.5rem;
+    min-height: 100dvh;
   }
 
   .container {

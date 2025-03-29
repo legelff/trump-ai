@@ -87,6 +87,7 @@ textarea:focus {
     background-color: white;
     border: 1px solid rgba(120, 120, 120, 0.5);
     width: 10%;
+    min-width: 30px;
     transition: 0.3s border ease-out, 0.3s background-color ease-out;
 }
 
@@ -107,5 +108,9 @@ textarea:focus {
 
     .img-container {
         display: none;
+    }
+
+    .chat-input-container {
+        padding: 0;
     }
 }
