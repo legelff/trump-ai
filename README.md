@@ -1,7 +1,9 @@
 # Trump AI Chatbot
 
+**Available Online**: https://www.l145.be/trump-ai/
+
 This project is a Trump AI Chatbot built with React as frontend and a separate backend in NodeJS (expressjs). The chatbot simulates conversations in the style of President Donald Trump, providing users with an engaging and entertaining experience.
-c
+
 ![Trump AI Chatbot Demo](demo.png)
 
 ### ⚠️ Important Note
@@ -15,9 +17,13 @@ This chatbot is not real and is meant purely for entertainment purposes. It does
 - **Built-in Error Handling**: Ensures a smooth and stable chat experience even when issues arise.
 - **Great UI**: Designed to be visually appealing and user-friendly.
 
-## Installation
+## Online Usage
 
-To get started with the Trump AI Chatbot, follow these steps:
+Access Trump AI @ https://www.l145.be/trump-ai/
+
+## Local Usage
+
+To get started with the Trump AI Chatbot (Locally), follow these steps:
 
 ### Clone the Repository:
 1. Clone the GitHub repository:
